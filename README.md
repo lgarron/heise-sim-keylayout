@@ -3,6 +3,10 @@ Idea and Implementation by Lucas Garron, March 7, 2010
 
 Version 1.1
 
+![Image of Heise Sim Layout](http://cube.garron.us/keyboard_layout/files/heise_simulator_keyboard_layout.png)
+
+[Demo Video](http://www.youtube.com/watch?v=cxpVjycQ6W4)
+
 ## ABOUT
 This Mac OSX "keyboard layout" allows you to type Rubik's Cube algs using the fabulous controls invented by Ryan Heise and popularized at http://www.ryanheise.com/cube/speed.html
 Cmd-Shortcuts will work as normal.
