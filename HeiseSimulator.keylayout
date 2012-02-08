@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Heise Simulator Keyboard Layout for Typing Rubik's Cube Algs.
+Lucas Garron, Mar 7, 2010
+Version 1.1
+-->
+<keyboard group="0" id="2295" name="Heise Simulator" maxout="1">
+    <layouts>
+        <layout first="0" last="0" modifiers="commonModifiers" mapSet="ANSI"/>
+    </layouts>
+    <modifierMap id="commonModifiers" defaultIndex="0">
+        <keyMapSelect mapIndex="0">
+            <modifier keys=""/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="1">
+            <modifier keys="anyShift caps?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="2">
+            <modifier keys="anyShift? caps? anyOption? anyControl"/>
+            <modifier keys="anyShift? anyOption? command? anyControl"/>
+            <modifier keys="anyShift caps anyOption command rightControl"/>
+            <modifier keys="anyShift caps rightOption? command anyControl"/>
+            <modifier keys="rightShift? caps anyOption command anyControl"/>
+            <modifier keys="anyShift caps anyOption command control"/>
+            <modifier keys="anyShift caps option? command anyControl"/>
+            <modifier keys="shift? caps anyOption command anyControl"/>
+            <modifier keys="caps? anyOption? command? anyControl"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="3">
+            <modifier keys="anyShift? caps? command"/>
+        </keyMapSelect>
+    </modifierMap>
+    <keyMapSet id="ANSI">
+        <keyMap index="0">
+            <key code="0" action="y3"/>
+            <key code="1" action="D1"/>
+            <key code="2" action="L1"/>
+            <key code="3" action="U3"/>
+            <key code="4" action="F1"/>
+            <key code="5" action="F3"/>
+            <key code="6" output=""/>
+            <key code="7" output=""/>
+            <key code="8" output=""/>
+            <key code="9" action="l1"/>
+            <key code="10" output="§"/>
+            <key code="11" action="x3"/>
+            <key code="12" action="z3"/>
+            <key code="13" action="B1"/>
+            <key code="14" action="L3"/>
+            <key code="15" action="l3"/>
+            <key code="16" action="x1"/>
+            <key code="17" action="x1"/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" output="6"/>
+            <key code="23" output="5"/>
+            <key code="24" output="]"/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
+            <key code="27" output="["/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
+            <key code="30" output=""/>
+            <key code="31" action="B3"/>
+            <key code="32" action="r1"/>
+            <key code="33" output=""/>
+            <key code="34" action="R1"/>
+            <key code="35" action="z1"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="D3"/>
+            <key code="38" action="U1"/>
+            <key code="39" output=""/>
+            <key code="40" action="R3"/>
+            <key code="41" action="y1"/>
+            <key code="42" output=""/>
+            <key code="43" output=""/>
+            <key code="44" output=""/>
+            <key code="45" action="x3"/>
+            <key code="46" action="r3"/>
+            <key code="47" action="M3"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <!-- gap, 68 -->
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <!-- gap, 73 through 74 -->
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <!-- gap, 79 through 80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <!-- gap, 90 -->
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <!-- gap, 93 through 95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="1">
+            <key code="0" action="y6"/>
+            <key code="1" action="D2"/>
+            <key code="2" action="L2"/>
+            <key code="3" action="U6"/>
+            <key code="4" action="F2"/>
+            <key code="5" action="F6"/>
+            <key code="6" output=""/>
+            <key code="7" output=""/>
+            <key code="8" output=""/>
+            <key code="9" action="l2"/>
+            <key code="10" output="±"/>
+            <key code="11" action="x6"/>
+            <key code="12" action="z6"/>
+            <key code="13" action="B2"/>
+            <key code="14" action="L6"/>
+            <key code="15" action="l6"/>
+            <key code="16" action="x2"/>
+            <key code="17" action="x2"/>
+            <key code="18" output="!"/>
+            <key code="19" output="@"/>
+            <key code="20" output="#"/>
+            <key code="21" output="$"/>
+            <key code="22" output="^"/>
+            <key code="23" output="%"/>
+            <key code="24" output="}"/>
+            <key code="25" output="("/>
+            <key code="26" output="&#x0026;"/>
+            <key code="27" output="{"/>
+            <key code="28" output="*"/>
+            <key code="29" output=")"/>
+            <key code="30" output=""/>
+            <key code="31" action="B6"/>
+            <key code="32" action="r2"/>
+            <key code="33" output=""/>
+            <key code="34" action="R2"/>
+            <key code="35" action="z2"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="D6"/>
+            <key code="38" action="U2"/>
+            <key code="39" output=""/>
+            <key code="40" action="R6"/>
+            <key code="41" action="y2"/>
+            <key code="42" output=""/>
+            <key code="43" output=""/>
+            <key code="44" output=""/>
+            <key code="45" action="x6"/>
+            <key code="46" action="r6"/>
+            <key code="47" action="M6"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" output="~"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="*"/>
+            <key code="67" output="*"/>
+            <!-- gap, 68 -->
+            <key code="69" output="+"/>
+            <key code="70" output="+"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="="/>
+            <!-- gap, 73 through 74 -->
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="/"/>
+            <key code="78" output="-"/>
+            <!-- gap, 79 through 80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <!-- gap, 90 -->
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <!-- gap, 93 through 95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="2">
+            <key code="0" output="&#x0001;"/>
+            <key code="1" output="&#x0013;"/>
+            <key code="2" output="&#x0004;"/>
+            <key code="3" output="&#x0006;"/>
+            <key code="4" output="&#x0008;"/>
+            <key code="5" output="&#x0007;"/>
+            <key code="6" output="&#x001A;"/>
+            <key code="7" output="&#x0018;"/>
+            <key code="8" output="&#x0003;"/>
+            <key code="9" output="&#x0016;"/>
+            <key code="10" output="0"/>
+            <key code="11" output="&#x0002;"/>
+            <key code="12" output="&#x0011;"/>
+            <key code="13" output="&#x0017;"/>
+            <key code="14" output="&#x0005;"/>
+            <key code="15" output="&#x0012;"/>
+            <key code="16" output="&#x0019;"/>
+            <key code="17" output="&#x0014;"/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" output="6"/>
+            <key code="23" output="5"/>
+            <key code="24" output="="/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
+            <key code="27" output="&#x001F;"/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
+            <key code="30" output="&#x001D;"/>
+            <key code="31" output="&#x000F;"/>
+            <key code="32" output="&#x0015;"/>
+            <key code="33" output="&#x001B;"/>
+            <key code="34" output="&#x0009;"/>
+            <key code="35" output="&#x0010;"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="&#x000C;"/>
+            <key code="38" output="&#x000A;"/>
+            <key code="39" output="&#x0027;"/>
+            <key code="40" output="&#x000B;"/>
+            <key code="41" output=";"/>
+            <key code="42" output="&#x001C;"/>
+            <key code="43" output=","/>
+            <key code="44" output="/"/>
+            <key code="45" output="&#x000E;"/>
+            <key code="46" output="&#x000D;"/>
+            <key code="47" output="."/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <!-- gap, 68 -->
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <!-- gap, 73 through 74 -->
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <!-- gap, 79 through 80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <!-- gap, 90 -->
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <!-- gap, 93 through 95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="3">
+            <key code="0" output="a"/>
+            <key code="1" output="s"/>
+            <key code="2" output="d"/>
+            <key code="3" output="f"/>
+            <key code="4" output="h"/>
+            <key code="5" output="g"/>
+            <key code="6" output="z"/>
+            <key code="7" output="x"/>
+            <key code="8" output="c"/>
+            <key code="9" output="v"/>
+            <key code="10" output="§"/>
+            <key code="11" output="b"/>
+            <key code="12" output="q"/>
+            <key code="13" output="w"/>
+            <key code="14" output="e"/>
+            <key code="15" output="r"/>
+            <key code="16" output="y"/>
+            <key code="17" output="t"/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" output="6"/>
+            <key code="23" output="5"/>
+            <key code="24" output="="/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
+            <key code="27" output="-"/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
+            <key code="30" output="]"/>
+            <key code="31" output="o"/>
+            <key code="32" output="u"/>
+            <key code="33" output="["/>
+            <key code="34" output="i"/>
+            <key code="35" output="p"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="l"/>
+            <key code="38" output="j"/>
+            <key code="39" output="&#x0027;"/>
+            <key code="40" output="k"/>
+            <key code="41" output=";"/>
+            <key code="42" output="\"/>
+            <key code="43" output=","/>
+            <key code="44" output="/"/>
+            <key code="45" output="n"/>
+            <key code="46" output="m"/>
+            <key code="47" output="."/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <!-- gap, 68 -->
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <!-- gap, 73 through 74 -->
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <!-- gap, 79 through 80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <!-- gap, 90 -->
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <!-- gap, 93 through 95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+    </keyMapSet>
+    <actions>
+        <action id="R0">
+            <when state="none" next="R0"/>
+            <when state="R0" next="R0"/>
+            <when state="R1" next="R1"/>
+            <when state="R2" next="R2"/>
+            <when state="R3" next="R3"/>
+            <when state="R6" next="R6"/>
+        </action>
+        <action id="R1">
+            <when state="none" next="R1"/>
+            <when state="R0" next="R1"/>
+            <when state="R1" next="R2"/>
+            <when state="R2" next="R3"/>
+            <when state="R3" next="R0"/>
+            <when state="R6" next="R3"/>
+        </action>
+        <action id="R2">
+            <when state="none" next="R2"/>
+            <when state="R0" next="R2"/>
+            <when state="R1" next="R3"/>
+            <when state="R2" next="R0"/>
+            <when state="R3" next="R1"/>
+            <when state="R6" next="R0"/>
+        </action>
+        <action id="R3">
+            <when state="none" next="R3"/>
+            <when state="R0" next="R3"/>
+            <when state="R1" next="R0"/>
+            <when state="R2" next="R1"/>
+            <when state="R3" next="R6"/>
+            <when state="R6" next="R1"/>
+        </action>
+        <action id="R6">
+            <when state="none" next="R6"/>
+            <when state="R0" next="R6"/>
+            <when state="R1" next="R3"/>
+            <when state="R2" next="R0"/>
+            <when state="R3" next="R1"/>
+            <when state="R6" next="R0"/>
+        </action>
+
+        <action id="L0">
+            <when state="none" next="L0"/>
+            <when state="L0" next="L0"/>
+            <when state="L1" next="L1"/>
+            <when state="L2" next="L2"/>
+            <when state="L3" next="L3"/>
+            <when state="L6" next="L6"/>
+        </action>
+        <action id="L1">
+            <when state="none" next="L1"/>
+            <when state="L0" next="L1"/>
+            <when state="L1" next="L2"/>
+            <when state="L2" next="L3"/>
+            <when state="L3" next="L0"/>
+            <when state="L6" next="L3"/>
+        </action>
+        <action id="L2">
+            <when state="none" next="L2"/>
+            <when state="L0" next="L2"/>
+            <when state="L1" next="L3"/>
+            <when state="L2" next="L0"/>
+            <when state="L3" next="L1"/>
+            <when state="L6" next="L0"/>
+        </action>
+        <action id="L3">
+            <when state="none" next="L3"/>
+            <when state="L0" next="L3"/>
+            <when state="L1" next="L0"/>
+            <when state="L2" next="L1"/>
+            <when state="L3" next="L6"/>
+            <when state="L6" next="L1"/>
+        </action>
+        <action id="L6">
+            <when state="none" next="L6"/>
+            <when state="L0" next="L6"/>
+            <when state="L1" next="L3"/>
+            <when state="L2" next="L0"/>
+            <when state="L3" next="L1"/>
+            <when state="L6" next="L0"/>
+        </action>
+
+        <action id="U0">
+            <when state="none" next="U0"/>
+            <when state="U0" next="U0"/>
+            <when state="U1" next="U1"/>
+            <when state="U2" next="U2"/>
+            <when state="U3" next="U3"/>
+            <when state="U6" next="U6"/>
+        </action>
+        <action id="U1">
+            <when state="none" next="U1"/>
+            <when state="U0" next="U1"/>
+            <when state="U1" next="U2"/>
+            <when state="U2" next="U3"/>
+            <when state="U3" next="U0"/>
+            <when state="U6" next="U3"/>
+        </action>
+        <action id="U2">
+            <when state="none" next="U2"/>
+            <when state="U0" next="U2"/>
+            <when state="U1" next="U3"/>
+            <when state="U2" next="U0"/>
+            <when state="U3" next="U1"/>
+            <when state="U6" next="U0"/>
+        </action>
+        <action id="U3">
+            <when state="none" next="U3"/>
+            <when state="U0" next="U3"/>
+            <when state="U1" next="U0"/>
+            <when state="U2" next="U1"/>
+            <when state="U3" next="U6"/>
+            <when state="U6" next="U1"/>
+        </action>
+        <action id="U6">
+            <when state="none" next="U6"/>
+            <when state="U0" next="U6"/>
+            <when state="U1" next="U3"/>
+            <when state="U2" next="U0"/>
+            <when state="U3" next="U1"/>
+            <when state="U6" next="U0"/>
+        </action>
+
+        <action id="D0">
+            <when state="none" next="D0"/>
+            <when state="D0" next="D0"/>
+            <when state="D1" next="D1"/>
+            <when state="D2" next="D2"/>
+            <when state="D3" next="D3"/>
+            <when state="D6" next="D6"/>
+        </action>
+        <action id="D1">
+            <when state="none" next="D1"/>
+            <when state="D0" next="D1"/>
+            <when state="D1" next="D2"/>
+            <when state="D2" next="D3"/>
+            <when state="D3" next="D0"/>
+            <when state="D6" next="D3"/>
+        </action>
+        <action id="D2">
+            <when state="none" next="D2"/>
+            <when state="D0" next="D2"/>
+            <when state="D1" next="D3"/>
+            <when state="D2" next="D0"/>
+            <when state="D3" next="D1"/>
+            <when state="D6" next="D0"/>
+        </action>
+        <action id="D3">
+            <when state="none" next="D3"/>
+            <when state="D0" next="D3"/>
+            <when state="D1" next="D0"/>
+            <when state="D2" next="D1"/>
+            <when state="D3" next="D6"/>
+            <when state="D6" next="D1"/>
+        </action>
+        <action id="D6">
+            <when state="none" next="D6"/>
+            <when state="D0" next="D6"/>
+            <when state="D1" next="D3"/>
+            <when state="D2" next="D0"/>
+            <when state="D3" next="D1"/>
+            <when state="D6" next="D0"/>
+        </action>
+
+        <action id="F0">
+            <when state="none" next="F0"/>
+            <when state="F0" next="F0"/>
+            <when state="F1" next="F1"/>
+            <when state="F2" next="F2"/>
+            <when state="F3" next="F3"/>
+            <when state="F6" next="F6"/>
+        </action>
+        <action id="F1">
+            <when state="none" next="F1"/>
+            <when state="F0" next="F1"/>
+            <when state="F1" next="F2"/>
+            <when state="F2" next="F3"/>
+            <when state="F3" next="F0"/>
+            <when state="F6" next="F3"/>
+        </action>
+        <action id="F2">
+            <when state="none" next="F2"/>
+            <when state="F0" next="F2"/>
+            <when state="F1" next="F3"/>
+            <when state="F2" next="F0"/>
+            <when state="F3" next="F1"/>
+            <when state="F6" next="F0"/>
+        </action>
+        <action id="F3">
+            <when state="none" next="F3"/>
+            <when state="F0" next="F3"/>
+            <when state="F1" next="F0"/>
+            <when state="F2" next="F1"/>
+            <when state="F3" next="F6"/>
+            <when state="F6" next="F1"/>
+        </action>
+        <action id="F6">
+            <when state="none" next="F6"/>
+            <when state="F0" next="F6"/>
+            <when state="F1" next="F3"/>
+            <when state="F2" next="F0"/>
+            <when state="F3" next="F1"/>
+            <when state="F6" next="F0"/>
+        </action>
+
+        <action id="B0">
+            <when state="none" next="B0"/>
+            <when state="B0" next="B0"/>
+            <when state="B1" next="B1"/>
+            <when state="B2" next="B2"/>
+            <when state="B3" next="B3"/>
+            <when state="B6" next="B6"/>
+        </action>
+        <action id="B1">
+            <when state="none" next="B1"/>
+            <when state="B0" next="B1"/>
+            <when state="B1" next="B2"/>
+            <when state="B2" next="B3"/>
+            <when state="B3" next="B0"/>
+            <when state="B6" next="B3"/>
+        </action>
+        <action id="B2">
+            <when state="none" next="B2"/>
+            <when state="B0" next="B2"/>
+            <when state="B1" next="B3"/>
+            <when state="B2" next="B0"/>
+            <when state="B3" next="B1"/>
+            <when state="B6" next="B0"/>
+        </action>
+        <action id="B3">
+            <when state="none" next="B3"/>
+            <when state="B0" next="B3"/>
+            <when state="B1" next="B0"/>
+            <when state="B2" next="B1"/>
+            <when state="B3" next="B6"/>
+            <when state="B6" next="B1"/>
+        </action>
+        <action id="B6">
+            <when state="none" next="B6"/>
+            <when state="B0" next="B6"/>
+            <when state="B1" next="B3"/>
+            <when state="B2" next="B0"/>
+            <when state="B3" next="B1"/>
+            <when state="B6" next="B0"/>
+        </action>
+
+        <action id="x0">
+            <when state="none" next="x0"/>
+            <when state="x0" next="x0"/>
+            <when state="x1" next="x1"/>
+            <when state="x2" next="x2"/>
+            <when state="x3" next="x3"/>
+            <when state="x6" next="x6"/>
+        </action>
+        <action id="x1">
+            <when state="none" next="x1"/>
+            <when state="x0" next="x1"/>
+            <when state="x1" next="x2"/>
+            <when state="x2" next="x3"/>
+            <when state="x3" next="x0"/>
+            <when state="x6" next="x3"/>
+        </action>
+        <action id="x2">
+            <when state="none" next="x2"/>
+            <when state="x0" next="x2"/>
+            <when state="x1" next="x3"/>
+            <when state="x2" next="x0"/>
+            <when state="x3" next="x1"/>
+            <when state="x6" next="x0"/>
+        </action>
+        <action id="x3">
+            <when state="none" next="x3"/>
+            <when state="x0" next="x3"/>
+            <when state="x1" next="x0"/>
+            <when state="x2" next="x1"/>
+            <when state="x3" next="x6"/>
+            <when state="x6" next="x1"/>
+        </action>
+        <action id="x6">
+            <when state="none" next="x6"/>
+            <when state="x0" next="x6"/>
+            <when state="x1" next="x3"/>
+            <when state="x2" next="x0"/>
+            <when state="x3" next="x1"/>
+            <when state="x6" next="x0"/>
+        </action>
+
+        <action id="y0">
+            <when state="none" next="y0"/>
+            <when state="y0" next="y0"/>
+            <when state="y1" next="y1"/>
+            <when state="y2" next="y2"/>
+            <when state="y3" next="y3"/>
+            <when state="y6" next="y6"/>
+        </action>
+        <action id="y1">
+            <when state="none" next="y1"/>
+            <when state="y0" next="y1"/>
+            <when state="y1" next="y2"/>
+            <when state="y2" next="y3"/>
+            <when state="y3" next="y0"/>
+            <when state="y6" next="y3"/>
+        </action>
+        <action id="y2">
+            <when state="none" next="y2"/>
+            <when state="y0" next="y2"/>
+            <when state="y1" next="y3"/>
+            <when state="y2" next="y0"/>
+            <when state="y3" next="y1"/>
+            <when state="y6" next="y0"/>
+        </action>
+        <action id="y3">
+            <when state="none" next="y3"/>
+            <when state="y0" next="y3"/>
+            <when state="y1" next="y0"/>
+            <when state="y2" next="y1"/>
+            <when state="y3" next="y6"/>
+            <when state="y6" next="y1"/>
+        </action>
+        <action id="y6">
+            <when state="none" next="y6"/>
+            <when state="y0" next="y6"/>
+            <when state="y1" next="y3"/>
+            <when state="y2" next="y0"/>
+            <when state="y3" next="y1"/>
+            <when state="y6" next="y0"/>
+        </action>
+
+        <action id="z0">
+            <when state="none" next="z0"/>
+            <when state="z0" next="z0"/>
+            <when state="z1" next="z1"/>
+            <when state="z2" next="z2"/>
+            <when state="z3" next="z3"/>
+            <when state="z6" next="z6"/>
+        </action>
+        <action id="z1">
+            <when state="none" next="z1"/>
+            <when state="z0" next="z1"/>
+            <when state="z1" next="z2"/>
+            <when state="z2" next="z3"/>
+            <when state="z3" next="z0"/>
+            <when state="z6" next="z3"/>
+        </action>
+        <action id="z2">
+            <when state="none" next="z2"/>
+            <when state="z0" next="z2"/>
+            <when state="z1" next="z3"/>
+            <when state="z2" next="z0"/>
+            <when state="z3" next="z1"/>
+            <when state="z6" next="z0"/>
+        </action>
+        <action id="z3">
+            <when state="none" next="z3"/>
+            <when state="z0" next="z3"/>
+            <when state="z1" next="z0"/>
+            <when state="z2" next="z1"/>
+            <when state="z3" next="z6"/>
+            <when state="z6" next="z1"/>
+        </action>
+        <action id="z6">
+            <when state="none" next="z6"/>
+            <when state="z0" next="z6"/>
+            <when state="z1" next="z3"/>
+            <when state="z2" next="z0"/>
+            <when state="z3" next="z1"/>
+            <when state="z6" next="z0"/>
+        </action>
+
+        <action id="l0">
+            <when state="none" next="l0"/>
+            <when state="l0" next="l0"/>
+            <when state="l1" next="l1"/>
+            <when state="l2" next="l2"/>
+            <when state="l3" next="l3"/>
+            <when state="l6" next="l6"/>
+        </action>
+        <action id="l1">
+            <when state="none" next="l1"/>
+            <when state="l0" next="l1"/>
+            <when state="l1" next="l2"/>
+            <when state="l2" next="l3"/>
+            <when state="l3" next="l0"/>
+            <when state="l6" next="l3"/>
+        </action>
+        <action id="l2">
+            <when state="none" next="l2"/>
+            <when state="l0" next="l2"/>
+            <when state="l1" next="l3"/>
+            <when state="l2" next="l0"/>
+            <when state="l3" next="l1"/>
+            <when state="l6" next="l0"/>
+        </action>
+        <action id="l3">
+            <when state="none" next="l3"/>
+            <when state="l0" next="l3"/>
+            <when state="l1" next="l0"/>
+            <when state="l2" next="l1"/>
+            <when state="l3" next="l6"/>
+            <when state="l6" next="l1"/>
+        </action>
+        <action id="l6">
+            <when state="none" next="l6"/>
+            <when state="l0" next="l6"/>
+            <when state="l1" next="l3"/>
+            <when state="l2" next="l0"/>
+            <when state="l3" next="l1"/>
+            <when state="l6" next="l0"/>
+        </action>
+
+        <action id="r0">
+            <when state="none" next="r0"/>
+            <when state="r0" next="r0"/>
+            <when state="r1" next="r1"/>
+            <when state="r2" next="r2"/>
+            <when state="r3" next="r3"/>
+            <when state="r6" next="r6"/>
+        </action>
+        <action id="r1">
+            <when state="none" next="r1"/>
+            <when state="r0" next="r1"/>
+            <when state="r1" next="r2"/>
+            <when state="r2" next="r3"/>
+            <when state="r3" next="r0"/>
+            <when state="r6" next="r3"/>
+        </action>
+        <action id="r2">
+            <when state="none" next="r2"/>
+            <when state="r0" next="r2"/>
+            <when state="r1" next="r3"/>
+            <when state="r2" next="r0"/>
+            <when state="r3" next="r1"/>
+            <when state="r6" next="r0"/>
+        </action>
+        <action id="r3">
+            <when state="none" next="r3"/>
+            <when state="r0" next="r3"/>
+            <when state="r1" next="r0"/>
+            <when state="r2" next="r1"/>
+            <when state="r3" next="r6"/>
+            <when state="r6" next="r1"/>
+        </action>
+        <action id="r6">
+            <when state="none" next="r6"/>
+            <when state="r0" next="r6"/>
+            <when state="r1" next="r3"/>
+            <when state="r2" next="r0"/>
+            <when state="r3" next="r1"/>
+            <when state="r6" next="r0"/>
+        </action>
+
+        <action id="M0">
+            <when state="none" next="M0"/>
+            <when state="M0" next="M0"/>
+            <when state="M1" next="M1"/>
+            <when state="M2" next="M2"/>
+            <when state="M3" next="M3"/>
+            <when state="M6" next="M6"/>
+        </action>
+        <action id="M1">
+            <when state="none" next="M1"/>
+            <when state="M0" next="M1"/>
+            <when state="M1" next="M2"/>
+            <when state="M2" next="M3"/>
+            <when state="M3" next="M0"/>
+            <when state="M6" next="M3"/>
+        </action>
+        <action id="M2">
+            <when state="none" next="M2"/>
+            <when state="M0" next="M2"/>
+            <when state="M1" next="M3"/>
+            <when state="M2" next="M0"/>
+            <when state="M3" next="M1"/>
+            <when state="M6" next="M0"/>
+        </action>
+        <action id="M3">
+            <when state="none" next="M3"/>
+            <when state="M0" next="M3"/>
+            <when state="M1" next="M0"/>
+            <when state="M2" next="M1"/>
+            <when state="M3" next="M6"/>
+            <when state="M6" next="M1"/>
+        </action>
+        <action id="M6">
+            <when state="none" next="M6"/>
+            <when state="M0" next="M6"/>
+            <when state="M1" next="M3"/>
+            <when state="M2" next="M0"/>
+            <when state="M3" next="M1"/>
+            <when state="M6" next="M0"/>
+        </action>
+
+
+    </actions>
+    <terminators>
+        <when state="R0" output=""/>
+        <when state="R1" output="R "/>
+        <when state="R2" output="R2 "/>
+        <when state="R3" output="R' "/>
+        <when state="R6" output="R2' "/>
+        <when state="L0" output=""/>
+        <when state="L1" output="L "/>
+        <when state="L2" output="L2 "/>
+        <when state="L3" output="L' "/>
+        <when state="L6" output="L2' "/>
+        <when state="U0" output=""/>
+        <when state="U1" output="U "/>
+        <when state="U2" output="U2 "/>
+        <when state="U3" output="U' "/>
+        <when state="U6" output="U2' "/>
+        <when state="D0" output=""/>
+        <when state="D1" output="D "/>
+        <when state="D2" output="D2 "/>
+        <when state="D3" output="D' "/>
+        <when state="D6" output="D2' "/>
+        <when state="F0" output=""/>
+        <when state="F1" output="F "/>
+        <when state="F2" output="F2 "/>
+        <when state="F3" output="F' "/>
+        <when state="F6" output="F2' "/>
+        <when state="B0" output=""/>
+        <when state="B1" output="B "/>
+        <when state="B2" output="B2 "/>
+        <when state="B3" output="B' "/>
+        <when state="B6" output="B2' "/>
+        <when state="x0" output=""/>
+        <when state="x1" output="x "/>
+        <when state="x2" output="x2 "/>
+        <when state="x3" output="x' "/>
+        <when state="x6" output="x2' "/>
+        <when state="y0" output=""/>
+        <when state="y1" output="y "/>
+        <when state="y2" output="y2 "/>
+        <when state="y3" output="y' "/>
+        <when state="y6" output="y2' "/>
+        <when state="z0" output=""/>
+        <when state="z1" output="z "/>
+        <when state="z2" output="z2 "/>
+        <when state="z3" output="z' "/>
+        <when state="z6" output="z2' "/>
+        <when state="l0" output=""/>
+        <when state="l1" output="l "/>
+        <when state="l2" output="l2 "/>
+        <when state="l3" output="l' "/>
+        <when state="l6" output="l2' "/>
+        <when state="r0" output=""/>
+        <when state="r1" output="r "/>
+        <when state="r2" output="r2 "/>
+        <when state="r3" output="r' "/>
+        <when state="r6" output="r2' "/>
+        <when state="M0" output=""/>
+        <when state="M1" output="M "/>
+        <when state="M2" output="M2 "/>
+        <when state="M3" output="M' "/>
+        <when state="M6" output="M2' "/>
+
+    </terminators>
+</keyboard>
