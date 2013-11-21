@@ -11,7 +11,7 @@ Version 1.1
 This Mac OSX "keyboard layout" allows you to type Rubik's Cube algs using the fabulous controls invented by Ryan Heise and popularized at http://www.ryanheise.com/cube/speed.html
 Cmd-Shortcuts will work as normal.
 
-Made with [Ukulele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=ukelele).
+Made with [Ukelele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=ukelele).
 
 ## INSTALLATION
 Install the layout by copying "HeiseSimulator.keylayout" and "HeiseSimulator.icns" to `/Library/Keyboard` Layouts or to `~/Library/Keyboard Layouts` (create one of them if they don't exist).
